@@ -18,7 +18,6 @@ function App() {
 	
 	const removeItem = (itemId) => {
 		const updateCart = cart.filter(item => item.id !== itemId);
-		console.log(updateCart);
 		setCart(updateCart);
 	}
 
